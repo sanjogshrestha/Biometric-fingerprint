@@ -22,7 +22,7 @@ class MainActivity : AppCompatActivity() {
         val biometricAvailable : Boolean = isBiometricAvailable()
         if(!biometricAvailable) {
             Toast.makeText(applicationContext,
-                "No fingerprint sensor detected" , Toast.LENGTH_SHORT)
+                getString(R.string.no_fingerprint_detected) , Toast.LENGTH_SHORT)
                 .show()
             return
         }

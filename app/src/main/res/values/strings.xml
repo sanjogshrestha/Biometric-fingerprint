@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">BioMetric</string>
     <string name="click_here">Click here!</string>
+    <string name="no_fingerprint_detected">No fingerprint sensor detected</string>
 </resources>
